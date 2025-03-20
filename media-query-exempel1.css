@@ -1,0 +1,40 @@
+body {}
+h1 {}
+h2 {}
+img {
+max-width: 100%;
+}
+
+@media screen and (min-width: 794px) {
+    body {
+    background: purple;
+    margin: 2px;
+    }
+    
+    }
+
+@media screen and (min-width: 420px) {
+    body {
+    background: rgb(26, 0, 130);
+    margin: 2px;
+    font-size: larger;
+    }
+    h1{
+        font-size: 1em;
+    }
+    h2{
+        font-size: 1em;
+    }
+    figure {
+        margin: 2em;
+        }
+    }
+
+@media screen and (min-width: 1020px){
+    body {
+        background-color: rgb(249, 179, 242);
+        font-size: xx-large;
+        margin: auto;
+        max-width: 1000px;
+    }
+}
